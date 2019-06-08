@@ -1,0 +1,13 @@
+.name{
+    width: 26%;
+    height: 50px;
+    border: 1px solid crimson;
+}
+.name p{
+    margin-left: 2000px;
+    transition: margin-left 1s;
+}
+
+.name:hover p{
+    margin-left: 38%;
+}

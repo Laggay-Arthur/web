@@ -1,0 +1,27 @@
+.name{
+    height: 50px;
+    margin-bottom: 26px;
+    border: 1px solid crimson;
+}
+.name p{
+    padding-left: 10px;
+}
+
+#tooltip{
+    position: relative;
+    left: -100%;
+    width: 26%;
+    height: 50px;
+    transition: left 1s;
+    border: 1px solid crimson;
+    background-color: salmon;
+}
+
+#tooltip p {
+    text-align: center;
+}
+
+.name:hover + #tooltip{
+    transition: 1.2s;
+    left: 40%;
+}

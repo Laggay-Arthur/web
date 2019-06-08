@@ -1,0 +1,316 @@
+/* - - - - - task 1 - - - - - */
+
+.br-a-a {
+    border: 1px;
+    border-style: dotted;
+    width: 625px;
+    height: 625px;
+}
+
+.br-a-b {
+    border: 1px;
+    border-style: solid;
+    border-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 25px 0px 25px 25px;
+}
+
+.br-a-c {
+    border: 1px;
+    border-style: solid;
+    border-color: green;
+    width: 200px;
+    height: 300px;
+    margin: 25px 0px 25px 25px;
+    padding: 25px 25px 25px 25px;
+    text-align: justify;
+}
+
+/* - - - - - task 2 - - - - - */
+
+.br-b-a {
+    border: 1px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 20px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    text-align: justify;
+}
+
+/* - - - - - task 3 - - - - - */
+
+.br-c-a {
+    border: 1px;
+    border-style: dotted;
+    padding: 15px 55px 15px 15px;
+    border-color: green;
+    text-align: justify;
+}
+
+.img-c-a {
+    float: left;
+    margin: 5px 5px 5px 5px;
+    width: 200px;
+}
+
+.img-c-b {
+    float: right;
+    margin: 5px 5px 5px 5px;
+    width: 200px;
+}
+
+/* - - - - - task 4 - - - - - */
+
+.br-d-a {
+    border: 1px;
+    border-style: dotted;
+    border-color: green;
+}
+
+.ul-d-a {
+    color: blue;
+}
+.ul-d-a li:hover{
+    color:red;
+    cursor: pointer;
+}
+/* - - - - - task 5 - - - - - */
+
+.br-zz-a {
+    border: 1px;
+    border-style: dotted;
+    border-color: green;
+    padding: 15px 15px 15px 15px;
+}
+
+.br-zz-a li {
+    list-style-type: none;
+    border: 1px;
+    border-style: solid;
+    color: blue;
+    padding: 5px 5px 5px 5px;
+    margin: 0px 0px 3px 0px;
+    width: 200px;
+}
+.br-zz-a li:hover {
+    border-color: blue;
+    color: red;
+    cursor: pointer; 
+}
+/* - - - - - task 6 - - - - - */
+
+.br-f-a {
+    border: 1px;
+    border-style: dotted;
+    border-color: green;
+    padding: 15px 15px 15px 15px;
+}
+
+.br-f-a li {
+    list-style-type: none;
+    border: 1px;
+    border-style: solid;
+    color: white;
+    background-color: black;
+    padding: 5px 5px 5px 5px;
+    margin: 0px 0px 3px 0px;
+    width: 200px;
+}
+
+.br-f-a li:hover {
+    color: black;
+    background-color: white;
+}
+
+/* - - - - - task 7 - - - - - */
+
+.br-g-a {
+    border: 1px;
+    border-style: dotted;
+    border-color: green;
+    padding: 15px 15px 15px 15px;
+    height: 30px;
+}
+
+.br-g-a li {
+    float: left;
+    list-style-type: none;
+    border: 1px;
+    border-style: solid;
+    color: blue;
+    padding: 5px 5px 5px 5px;
+    margin: 0px 3px 0px 0px;
+}
+
+.br-g-a li:hover {
+    border-color: blue;
+    color: red;
+}
+
+/* - - - - - task 8 - - - - - */
+
+.br-h-a {
+    border: 1px;
+    border-style: dotted;
+    border-color: green;
+    padding: 15px 15px 15px 15px;
+    height: 30px;
+}
+
+.br-h-a li {
+    display: inline-block;
+    list-style-type: none;
+    border: 1px;
+    border-style: solid;
+    color: blue;
+    padding: 5px 5px 5px 5px;
+    margin: 0px 3px 0px 0px;
+}
+
+.br-h-a li:hover {
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+/* - - - - - task 9 - - - - - */
+
+.br-i-b {
+    border: 1px;
+    border-style: dotted;
+    border-color: green;
+    padding: 15px 15px 15px 15px;
+    height: 30px;
+}
+
+.br-i-a {
+    margin: 0px;
+    background-color: orange;
+}
+
+.br-i-a li {
+    margin: 0px 0px 0px 0px;
+    text-transform: uppercase;
+    display: inline-block;
+    list-style-type: none;
+    border: 1px;
+    border-style: solid;
+    background-color: orange;
+    border-color: orange;
+    color: white;
+    font-family: sans-serif;
+    font-size: 11pt;
+    padding: 5px 5px 5px 5px;
+}
+
+.br-i-a li:hover {
+    background-color: red;
+}
+
+/* - - - - - task 10 - - - - - */
+
+.br-j-a {
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+    border: 1px;
+    border-color: green;
+    border-style: solid;
+    text-align: right;
+    color: blue;
+}
+
+h2 {
+    text-align: left;
+}
+
+p {
+    color: black;
+    text-align: justify;
+}
+
+/* - - - - - task 11 - - - - - */
+
+.br-k-a {
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+    border: 1px;
+    border-color: green;
+    border-style: solid;
+    text-align: right;
+}
+
+.br-k-a img {
+    float: left;
+    margin: 5px 5px 5px 5px;
+    width: 200px;
+}
+
+h2 {
+    text-align: left;
+}
+
+a {
+    color: blue;
+}
+
+p {
+    color: black;
+    text-align: justify;
+}
+
+/* - - - - - task 12 - - - - - */
+.br-l-a ul li {
+    background-color: orange;
+    padding: 20px 20px 20px 20px;
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    font-family: sans-serif;
+    font-size: 10pt;
+}
+.br-l-a ul li:hover {
+    color: orange;
+    background-color: white;
+    border-color: white;
+}
+.br-l-a ul {
+    background-color: orange;
+    margin: 0px; 
+    padding: 0px;
+}
+.br-l-a {
+    border: 1px;
+    border-style: solid;
+    border-color: orange;
+}
+
+.br-l-a p {
+    text-align: justify;
+    text-indent: 1.5em;
+    margin: 10px;
+    color: rgb(161, 105, 0);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(97, 63, 0);
+}
+
+.ul-l-a li {
+    margin: 0px 10px 0px 0px;
+    list-style-type: none;
+    display: inline-block;
+    
+}
+.ul-l-a { 
+    color: rgb(97, 63, 0);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 10pt;
+} 
+
+.tg:hover{
+    cursor: pointer;
+}

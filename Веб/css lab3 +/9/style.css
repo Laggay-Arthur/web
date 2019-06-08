@@ -1,0 +1,16 @@
+.name, .name1{
+    width: 26%;
+    height: 50px;
+    margin-bottom: 26px;
+    border: 1px solid crimson;
+    transition: width 2s;
+    transition-timing-function: steps(3, start);
+}
+.name1{ transition-delay: .4s;}
+
+.name:hover{ width: 100%; }
+
+.name:hover + .name1 {
+    /* transition-delay: .4s; */
+    width: 100%;
+}

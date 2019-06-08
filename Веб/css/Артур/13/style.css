@@ -1,0 +1,16 @@
+.name{
+    width: 200px;
+    height: 200px;
+    border: 1px solid crimson;
+    margin-bottom: 26px;
+    animation: my 3s linear infinite;
+}
+
+@keyframes my{
+    0%{
+        background-color: white;
+    }
+    100%{
+        background-color:red;
+    }
+}

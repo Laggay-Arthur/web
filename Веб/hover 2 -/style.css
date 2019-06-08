@@ -1,0 +1,15 @@
+.main, .main1{
+    border: 1px solid black;
+    width: 32%;
+    height: 50px;
+    margin-top: 10px;
+    transition: width .7s;
+}
+
+.conteiner, .conteiner:hover .main1{ width: 100%;}
+
+.main:hover { width: 100%; border-color: red; }
+
+.main1:hover{ width: 32% ; border-color: red; }
+
+.er:hover .main1{ width: 32%; }

@@ -1,0 +1,11 @@
+.name{
+    width: 26%;
+    height: 50px;
+    margin-bottom: 26px;
+    transition: width 1.5s;
+    border: 1px solid crimson;
+}
+
+.name:hover + .name{
+    width: 100%;
+}

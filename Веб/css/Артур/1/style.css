@@ -1,0 +1,8 @@
+.name{
+	width: 400px;
+	height: 60px;
+    border: 1px solid crimson;
+	transition: background-color 2s;
+}
+
+.name:hover{ background: red; }

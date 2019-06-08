@@ -1,0 +1,18 @@
+.name{
+    width: 26%;
+    height: 50px;
+    position: relative;
+    left: 30%;
+   
+    border: 1px solid crimson;
+}
+.name:hover{
+  
+    animation: change-color 2s normal 0s infinite;
+    border: 1px solid crimson;
+}
+@keyframes change-color{
+    20%{background-color: blue;}
+    50%{background-color: chocolate;}
+    70%{background-color: green;}
+}

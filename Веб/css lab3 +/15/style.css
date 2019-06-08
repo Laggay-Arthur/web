@@ -1,0 +1,33 @@
+.name{
+    width: 26%;
+    height: 50px;
+    border: 1px solid crimson;
+    margin-bottom: 26px;
+}
+
+.name p{
+    padding-left: 10px;
+}
+
+.name1{
+    width: 50%;
+    height: 50px;
+    border: 1px solid blue;
+    position: relative;
+}
+
+.name:hover +.name1 {
+    animation: my 3.4s forwards infinite normal;
+}
+
+@keyframes my {
+    0% {
+        width: 50%;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        width: 50%;
+    }
+}
